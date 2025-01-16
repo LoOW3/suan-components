@@ -14,14 +14,18 @@ export default meta;
 type Story = StoryObj<typeof Switch>;
 
 export const Default: Story = {
-  /* args: {
-    checkedColor: "#34c759",
-    uncheckedColor: "#ccc,",
-  }, */
+  args: {
+    colorscheme: "basic",
+    size: "md",
+  },
 };
-export const V2: Story = {
-  /* args: {
-    checkedColor: "#FF5733",
-    uncheckedColor: "#b0b0b0",
-  }, */
+export const Danger: Story = {
+  args: {
+    colorscheme: "danger",
+  },
+};
+export const xd: Story = {
+  args: {
+    colorscheme: "xd",
+  },
 };
