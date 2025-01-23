@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { Switch } from "./Switch.tsx";
 const meta: Meta<typeof Switch> = {
-  title: "Components/Switch",
+  title: "Components/Switch/Switch",
   component: Switch,
   parameters: {
     layout: "centered",
@@ -16,16 +16,14 @@ type Story = StoryObj<typeof Switch>;
 export const Default: Story = {
   args: {
     colorscheme: "basic",
+    //@ts-ignore
     size: "md",
   },
 };
 export const Danger: Story = {
   args: {
     colorscheme: "danger",
-  },
-};
-export const xd: Story = {
-  args: {
-    colorscheme: "xd",
+    //@ts-ignore
+    size: "md",
   },
 };

@@ -16,7 +16,7 @@ const switchStyles = cva(
     "peer-checked:bg-green-400",
     "after:w-8",
     "after:h-8",
-    "after:bg-white",
+    "after:bg-gradient-to-tr after:from-white after:to-gray-100",
     "after:rounded-full",
     "after:shadow-md",
     "after:duration-300",
@@ -31,8 +31,7 @@ const switchStyles = cva(
       },
       colorscheme: {
         basic: "bg-gray-300 peer-checked:bg-green-400",
-        danger: "bg-red-500 peer-checked:bg-green-400",
-        xd: "bg-violet-700 peer-checked:bg-teal-400",
+        danger: "bg-orange-500 peer-checked:bg-green-400",
       },
     },
     compoundVariants: [
