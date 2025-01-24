@@ -5,7 +5,13 @@ import { cn } from "../utils";
 const daysLeftStyles = cva(
   ["flex", "rounded-full", "rounded-tr-none", "font-medium", ""],
   {
-    variants: {},
+    variants: {
+      size: {
+        sm: "scale-90",
+        md: "",
+        lg: "scale-125",
+      },
+    },
     defaultVariants: {
       size: "md",
     },
@@ -18,11 +24,11 @@ type DaysLeftProps = ComponentProps<"section"> &
   };
 
 export const DaysLeft = forwardRef<HTMLElement, DaysLeftProps>(
-  ({ daysLeft = 20, className, ...props }, ref) => {
+  ({ daysLeft = 20, className, size, ...props }, ref) => {
     return (
       <section
         ref={ref}
-        className={cn(daysLeftStyles({ className }))}
+        className={cn(daysLeftStyles({ className, size }))}
         {...props}
       >
         <div className="bg-[#171717] text-white h-full pl-5 pr-2 rounded-l-full text-3xl font-normal text-nowrap">
