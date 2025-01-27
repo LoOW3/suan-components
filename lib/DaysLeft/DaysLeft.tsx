@@ -7,7 +7,7 @@ const daysLeftStyles = cva(
   {
     variants: {
       size: {
-        sm: "scale-90",
+        sm: "scale-75",
         md: "",
         lg: "scale-125",
       },
@@ -42,7 +42,7 @@ export const DaysLeft = forwardRef<HTMLElement, DaysLeftProps>(
           border-l-[18px] border-l-[#171717]
           border-b-[18px] border-b-transparent pr-2"
           ></div>
-          Días restantes
+          Día{daysLeft !== 1 && "s"} restante{daysLeft !== 1 && "s"}
         </div>
       </section>
     );
