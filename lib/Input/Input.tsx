@@ -15,7 +15,7 @@ const inputStyles = cva([
   "focus:border-transparent",
   "placeholder:text-gray-400",
   "placeholder:text-sm",
-  " bg-[#fff] shadow-[inset_5px_5px_7px_#cfcfcf,inset_-5px_-5px_7px_#ffffff]",
+  " bg-[#fff] shadow-[inset_5px_5px_10px_#ebebeb,inset_-5px_-5px_10px_#ffffff]",
 ]);
 const inputSizeStyle = cva([], {
   variants: {
