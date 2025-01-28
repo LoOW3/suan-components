@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { PillButton } from "./PillButton";
 
 const meta: Meta<typeof PillButton> = {
-  title: "Components/PillButton",
+  title: "Components/Button/PillButton",
   component: PillButton,
   parameters: {
     layout: "centered",

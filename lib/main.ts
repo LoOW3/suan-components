@@ -1,8 +1,14 @@
 import "./tailwind.css";
 export { Button } from "./Button/Button";
 export { DaysLeft } from "./DaysLeft/DaysLeft";
+export { DeleteButton } from "./DeleteButton/DeleteButton";
 export { HorizontalList } from "./HorizontalList/HorizontalList";
+export { IconButton } from "./IconButton/IconButton";
+export { Input } from "./Input/Input";
 export { MenuBar } from "./MenuBar/MenuBar";
+export { PillButton } from "./PillButton/PillButton";
+export { SectionWithStatusCheck } from "./SectionWithStatusCheck/SectionWithStatusCheck";
+export { SelectInput } from "./SelectInput/SelectInput";
 export { StatusBubble } from "./StatusBubble/StatusBubble";
 export { Switch } from "./Switch/Switch";
 export { SwitchProjectVisibility } from "./SwitchProjectVisibility/SwitchProjectVisibility";
