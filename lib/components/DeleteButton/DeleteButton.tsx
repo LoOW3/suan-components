@@ -1,7 +1,7 @@
 import XIcon from "@/icons/XIcon";
 import { cva, VariantProps } from "class-variance-authority";
 import { ComponentProps, forwardRef } from "react";
-import { cn } from "../utils";
+import { cn } from "../../utils";
 
 const deleteButtonStyles = cva(
   [

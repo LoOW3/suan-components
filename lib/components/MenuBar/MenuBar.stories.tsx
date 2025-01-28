@@ -22,7 +22,7 @@ const ClockHourIcon = (
 );
 
 const meta: Meta<typeof MenuBar> = {
-  title: "Components/MenuBar",
+  title: "Components/Other/MenuBar",
   component: MenuBar,
   tags: ["autodocs"],
   parameters: {

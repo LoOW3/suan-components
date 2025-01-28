@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { StatusBubble } from "./StatusBubble";
 
 const meta: Meta<typeof StatusBubble> = {
-  title: "Components/StatusBubble",
+  title: "Components/Other/StatusBubble",
   component: StatusBubble,
   tags: ["autodocs"],
   parameters: {

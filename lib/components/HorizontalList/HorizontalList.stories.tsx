@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { HorizontalList } from "./HorizontalList";
 
 const meta: Meta<typeof HorizontalList> = {
-  title: "Components/HorizontalList",
+  title: "Components/Other/HorizontalList",
   component: HorizontalList,
   tags: ["autodocs"],
   parameters: {
