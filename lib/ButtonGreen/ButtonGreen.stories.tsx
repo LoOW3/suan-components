@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { ButtonGreen } from "./ButtonGreen";
 
 const meta: Meta<typeof ButtonGreen> = {
-  title: "Components/ButtonGreen",
+  title: "Components/Button/ButtonGreen",
   component: ButtonGreen,
   parameters: {
     layout: "centered",
@@ -17,6 +17,6 @@ type Story = StoryObj<typeof meta>;
 export const Solid: Story = {
   args: {
     children: "Button",
-    size: "sm"
+    size: "sm",
   },
 };

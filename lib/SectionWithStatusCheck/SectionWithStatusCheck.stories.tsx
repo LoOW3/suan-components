@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { SectionWithStatusCheck } from "./SectionWithStatusCheck.tsx";
 const meta: Meta<typeof SectionWithStatusCheck> = {
-  title: "Components/SectionWithStatusCheck",
+  title: "Components/Other/SectionWithStatusCheck",
   component: SectionWithStatusCheck,
   parameters: {
     layout: "centered",
