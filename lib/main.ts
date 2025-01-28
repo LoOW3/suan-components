@@ -1,6 +1,9 @@
 import "./tailwind.css";
 export { Button } from "./Button/Button";
 export { DaysLeft } from "./DaysLeft/DaysLeft";
+export { HorizontalList } from "./HorizontalList/HorizontalList";
+export { MenuBar } from "./MenuBar/MenuBar";
+export { StatusBubble } from "./StatusBubble/StatusBubble";
 export { Switch } from "./Switch/Switch";
 export { SwitchProjectVisibility } from "./SwitchProjectVisibility/SwitchProjectVisibility";
 export { SwitchText } from "./SwitchText/SwitchText";
