@@ -1,6 +1,5 @@
 import "./tailwind.css";
 export { Button } from "./Button/Button";
-export { ButtonGreen } from "./ButtonGreen/ButtonGreen";
 export { DaysLeft } from "./DaysLeft/DaysLeft";
 export { Switch } from "./Switch/Switch";
 export { SwitchProjectVisibility } from "./SwitchProjectVisibility/SwitchProjectVisibility";
